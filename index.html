@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aryan - B.Tech CSE Student, Python Developer, and Competitive Judoka & Athlete Portfolio">
+  <meta name="keywords" content="Aryan, Portfolio, Python Developer, B.Tech CSE, Judo, Martial Arts, Software Engineer, Data Structures">
+  <meta name="author" content="Aryan">
+  <title>Aryan | B.Tech CSE &bull; Python Developer &bull; Judoka</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥋</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       Navigation Bar
+       ========================================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" aria-label="Aryan Home">
+        <span class="logo-badge">A</span>
+        <span>Aryan<span class="gradient-text">.dev</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#hackathons" class="nav-link">Hackathons</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Theme">
+          <i class="fas fa-sun"></i>
+        </button>
+        <a href="#contact" class="btn btn-primary nav-cta-btn">
+          <span>Let's Talk</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================
+         Hero Section
+         ========================================== -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <div class="status-pill">
+              <span class="pulse-dot"></span>
+              <span>Available for Python Roles & Collaborations</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Aryan</span>.<br>
+              Coder on the Screen,<br>
+              <span class="gold-text">Judoka on the Tatami.</span>
+            </h1>
+
+            <div class="hero-typewriter">
+              <span class="typewriter-prefix">> I am a</span>
+              <span id="typewriter-text" class="gradient-text"></span>
+              <span class="typewriter-cursor"></span>
+            </div>
+
+            <p class="hero-desc">
+              B.Tech Computer Science & Engineering undergraduate with an obsession for clean Python architectures, robust algorithms, and high-performance backend systems. Proven competitive athlete bringing extreme discipline, grit, and situational awareness from Judo straight into software engineering.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-code"></i>
+                <span>Explore Projects</span>
+              </a>
+              <a href="#sports" class="btn btn-gold">
+                <i class="fas fa-medal"></i>
+                <span>Sports & Judo</span>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <i class="fas fa-paper-plane"></i>
+                <span>Contact Me</span>
+              </a>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LeetCode">
+                <i class="fas fa-code"></i>
+              </a>
+              <a href="mailto:aryan.tech.judo@gmail.com" class="social-btn" aria-label="Email Aryan">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-card-wrapper">
+              
+              <!-- Floating Tags -->
+              <div class="floating-tag tag-top">
+                <i class="fab fa-python" style="color: #38bdf8; font-size: 1.25rem;"></i>
+                <span>Python Specialist</span>
+              </div>
+
+              <div class="floating-tag tag-bottom">
+                <i class="fas fa-award" style="color: #f59e0b; font-size: 1.25rem;"></i>
+                <span>State Judo Medalist</span>
+              </div>
+
+              <!-- Main Hero Profile Card -->
+              <div class="hero-main-card">
+                <div class="avatar-ring">
+                  <div class="avatar-inner">
+                    <svg class="avatar-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="60" cy="60" r="58" fill="#162035" stroke="#38bdf8" stroke-width="2"/>
+                      <!-- Belt / Kimono Stylized graphic -->
+                      <path d="M40 70 L60 90 L80 70" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+                      <circle cx="60" cy="45" r="18" fill="#38bdf8"/>
+                      <path d="M30 100 C30 80 45 75 60 75 C75 75 90 80 90 100 Z" fill="#818cf8"/>
+                      <path d="M52 86 L68 86" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="hero-badge-tag">
+                  <i class="fas fa-shield-halved"></i>
+                  <span>B.Tech CSE &bull; Judoka</span>
+                </div>
+
+                <h3 style="font-size: 1.4rem; margin-bottom: 0.25rem;">Aryan</h3>
+                <p style="color: var(--text-muted); font-size: 0.88rem; font-family: var(--font-mono);">
+                  coder@tatami:~$ python main.py
+                </p>
+
+                <div class="hero-stat-pills">
+                  <div class="stat-mini">
+                    <div class="stat-mini-num">500+</div>
+                    <div class="stat-mini-label">DSA Problems</div>
+                  </div>
+                  <div class="stat-mini">
+                    <div class="stat-mini-num gold">8+</div>
+                    <div class="stat-mini-label">Judo Medals</div>
+                  </div>
+                  <div class="stat-mini">
+                    <div class="stat-mini-num">15+</div>
+                    <div class="stat-mini-label">Python Builds</div>
+                  </div>
+                  <div class="stat-mini">
+                    <div class="stat-mini-num gold">36h</div>
+                    <div class="stat-mini-label">Hackathons</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         Stats Ribbon
+         ========================================== -->
+    <section class="stats-ribbon">
+      <div class="container">
+        <div class="stats-grid">
+          
+          <div class="stat-item">
+            <div class="stat-icon">
+              <i class="fab fa-python"></i>
+            </div>
+            <div>
+              <div class="stat-number" data-count="15" data-suffix="+">0</div>
+              <div class="stat-desc">Production & Academic Projects</div>
+            </div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-icon">
+              <i class="fas fa-terminal"></i>
+            </div>
+            <div>
+              <div class="stat-number" data-count="500" data-suffix="+">0</div>
+              <div class="stat-desc">DSA & Algorithmic Challenges</div>
+            </div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-icon gold-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div>
+              <div class="stat-number" data-count="8" data-suffix="+">0</div>
+              <div class="stat-desc">Judo Tournament Podiums</div>
+            </div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-icon gold-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <div>
+              <div class="stat-number" data-count="4" data-suffix="">0</div>
+              <div class="stat-desc">National & State Hackathons</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         About Me Section
+         ========================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i class="fas fa-user-ninja"></i>
+            <span>Who I Am</span>
+          </div>
+          <h2 class="section-title">Bridging <span class="gradient-text">Algorithmic Logic</span> with <span class="gold-text">Athletic Grit</span></h2>
+          <p class="section-subtitle">
+            Engineering software requires analytical precision; mastering martial arts demands poise under intense pressure. I thrive at the crossroads of both.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-text-col">
+            <p class="about-bio">
+              Hello! I'm <strong>Aryan</strong>, an undergraduate pursuing my <strong>B.Tech in Computer Science and Engineering (CSE)</strong>. My computing journey centers around <strong>Python</strong> — from crafting backend REST APIs and automation scripts to training computer vision models and solving complex data structure challenges.
+            </p>
+
+            <p class="about-bio">
+              Outside the terminal, I am an experienced competitive <strong>Judoka (Judo athlete)</strong>. Over years of training and competing at district, state, and inter-university levels, the tatami has taught me that true strength isn't brute force — it is <em>Kuzushi</em> (unbalancing), leverage, calm observation, and adapting when a strategy fails.
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar-card">
+                <h4><i class="fas fa-code-branch"></i> The Engineer's Mind</h4>
+                <p>Modularity, clean code, scalable architecture, and algorithmic efficiency in Python and SQL.</p>
+              </div>
+              <div class="pillar-card">
+                <h4><i class="fas fa-dumbbell"></i> The Athlete's Stamina</h4>
+                <p>Relentless work ethic, ability to perform in high-pressure hackathons, and extreme focus.</p>
+              </div>
+              <div class="pillar-card">
+                <h4><i class="fas fa-chess-knight"></i> Tactical Problem Solving</h4>
+                <p>Breaking down complex computational problems into elegant, step-by-step solutions.</p>
+              </div>
+              <div class="pillar-card">
+                <h4><i class="fas fa-users"></i> Team Synergy</h4>
+                <p>Leadership honed through sports captaincy and leading hackathon sprint teams.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Athletic / Judo Highlight Card -->
+          <div class="judo-highlight-card" id="sports">
+            <div>
+              <div class="judo-card-head">
+                <div class="judo-icon-wrapper">
+                  <i class="fas fa-medal"></i>
+                </div>
+                <div>
+                  <h3>Sports Profile: Judo</h3>
+                  <span>Competitive Martial Artist & Athlete</span>
+                </div>
+              </div>
+
+              <blockquote class="judo-quote">
+                "Maximum efficiency with minimum effort (Seiryoku Zenyo). Mutual welfare and benefit (Jita Kyoei)." &mdash; Jigoro Kano
+              </blockquote>
+
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+                Trained through countless hours of Uchikomi (repetitive throwing drills) and Randori (free sparring). Applying the same patience and stamina to marathon coding sessions.
+              </p>
+            </div>
+
+            <div class="judo-stats-list">
+              <div class="judo-stat-row">
+                <span class="judo-stat-label"><i class="fas fa-weight-scale"></i> Primary Weight Class</span>
+                <span class="judo-stat-val">-73 kg Division</span>
+              </div>
+              <div class="judo-stat-row">
+                <span class="judo-stat-label"><i class="fas fa-certificate"></i> Belt Rank</span>
+                <span class="judo-stat-val">Senior Advanced Judoka</span>
+              </div>
+              <div class="judo-stat-row">
+                <span class="judo-stat-label"><i class="fas fa-award"></i> Representative Level</span>
+                <span class="judo-stat-val">State & Inter-University</span>
+              </div>
+              <div class="judo-stat-row">
+                <span class="judo-stat-label"><i class="fas fa-fire"></i> Favorite Technique (Tokui-waza)</span>
+                <span class="judo-stat-val">Uchi-Mata / Seoi-Nage</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         Skills Section
+         ========================================== -->
+    <section class="section" id="skills" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i class="fas fa-laptop-code"></i>
+            <span>Technical & Physical Arsenal</span>
+          </div>
+          <h2 class="section-title">Skills & <span class="gradient-text">Competencies</span></h2>
+          <p class="section-subtitle">
+            A comprehensive overview of my programming foundations, engineering tools, and athletic capabilities.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Programming & Backend -->
+          <div class="glass-card">
+            <h3 class="skill-category-title">
+              <i class="fab fa-python" style="color: var(--accent-primary);"></i>
+              <span>Python & Backend</span>
+            </h3>
+
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fab fa-python"></i> Python (Core, OOP, AsyncIO)</span>
+                  <span class="skill-level-pct">95%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" data-width="95%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fas fa-bolt"></i> FastAPI & REST APIs</span>
+                  <span class="skill-level-pct">88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" data-width="88%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fas fa-server"></i> Flask / Django</span>
+                  <span class="skill-level-pct">82%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" data-width="82%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fas fa-database"></i> SQL & Relational DBs</span>
+                  <span class="skill-level-pct">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" data-width="85%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tag-cloud">
+              <span class="tech-tag">Pydantic</span>
+              <span class="tech-tag">SQLAlchemy</span>
+              <span class="tech-tag">Requests</span>
+              <span class="tech-tag">BeautifulSoup</span>
+              <span class="tech-tag">Celery</span>
+            </div>
+          </div>
+
+          <!-- Category 2: CS Fundamentals & AI/Data -->
+          <div class="glass-card">
+            <h3 class="skill-category-title">
+              <i class="fas fa-brain" style="color: var(--accent-purple);"></i>
+              <span>CS Core & Data</span>
+            </h3>
+
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fas fa-diagram-project"></i> Data Structures & Algorithms</span>
+                  <span class="skill-level-pct">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" data-width="90%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fas fa-chart-line"></i> Pandas & NumPy</span>
+                  <span class="skill-level-pct">84%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" data-width="84%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fas fa-eye"></i> OpenCV & Computer Vision</span>
+                  <span class="skill-level-pct">80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" data-width="80%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fas fa-code"></i> C++ & System Concepts</span>
+                  <span class="skill-level-pct">75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" data-width="75%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tag-cloud">
+              <span class="tech-tag">OOP</span>
+              <span class="tech-tag">OS Concepts</span>
+              <span class="tech-tag">DBMS</span>
+              <span class="tech-tag">Computer Networks</span>
+              <span class="tech-tag">Scikit-Learn</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Tools, Web & Athletic Skills -->
+          <div class="glass-card">
+            <h3 class="skill-category-title">
+              <i class="fas fa-medal" style="color: var(--accent-secondary);"></i>
+              <span>Tools & Sports Mentality</span>
+            </h3>
+
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fab fa-git-alt"></i> Git & GitHub Workflow</span>
+                  <span class="skill-level-pct">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" data-width="90%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fab fa-linux"></i> Linux CLI & Bash</span>
+                  <span class="skill-level-pct">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" data-width="85%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fas fa-shield-heart"></i> Resilience & Mental Grit</span>
+                  <span class="skill-level-pct">98%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill gold-bar" data-width="98%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name-tag"><i class="fas fa-users-gear"></i> Athletic Leadership & Composure</span>
+                  <span class="skill-level-pct">92%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill gold-bar" data-width="92%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tag-cloud">
+              <span class="tech-tag">Docker Basics</span>
+              <span class="tech-tag">Postman</span>
+              <span class="tech-tag">VS Code</span>
+              <span class="tech-tag">Tactical Sparring</span>
+              <span class="tech-tag">Rapid Conditioning</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         Experience & Roles Section
+         ========================================== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i class="fas fa-briefcase"></i>
+            <span>Track Record</span>
+          </div>
+          <h2 class="section-title">Experience & <span class="gradient-text">Leadership</span></h2>
+          <p class="section-subtitle">
+            Applying technical capabilities in software and leading teams on and off the mat.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          
+          <!-- Experience Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Python Developer Intern</h3>
+                  <div class="timeline-company">
+                    <i class="fas fa-building"></i>
+                    <span>Apex Innovate Technologies &bull; Remote / Hybrid</span>
+                  </div>
+                </div>
+                <span class="timeline-time"><i class="fas fa-calendar-alt"></i> June 2024 &ndash; Aug 2024</span>
+              </div>
+              <p class="timeline-desc">
+                Contributed to building backend microservices and automated ETL pipeline modules using Python and FastAPI.
+              </p>
+              <div class="timeline-bullets">
+                <div class="timeline-bullet-item">
+                  <i class="fas fa-check"></i>
+                  <span>Engineered asynchronous Python data extractors handling 50k+ records daily with Pandas and PostgreSQL.</span>
+                </div>
+                <div class="timeline-bullet-item">
+                  <i class="fas fa-check"></i>
+                  <span>Developed and documented 12+ RESTful API endpoints with Swagger/OpenAPI specifications.</span>
+                </div>
+                <div class="timeline-bullet-item">
+                  <i class="fas fa-check"></i>
+                  <span>Optimized database query performance, reducing response latency by 28%.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Technical Lead & Python Mentor</h3>
+                  <div class="timeline-company">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Campus Coding & Open-Source Society &bull; University</span>
+                  </div>
+                </div>
+                <span class="timeline-time"><i class="fas fa-calendar-alt"></i> Sept 2023 &ndash; Present</span>
+              </div>
+              <p class="timeline-desc">
+                Head of Python track, conducting hands-on coding bootcamps and mentoring junior students in Data Structures and Algorithms.
+              </p>
+              <div class="timeline-bullets">
+                <div class="timeline-bullet-item">
+                  <i class="fas fa-check"></i>
+                  <span>Organized weekend problem-solving sessions attended by 120+ undergraduates.</span>
+                </div>
+                <div class="timeline-bullet-item">
+                  <i class="fas fa-check"></i>
+                  <span>Mentored winning teams in regional student hackathons on API design and project pitching.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Item 3: Sports Captaincy -->
+          <div class="timeline-item sports-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Judo Squad Captain & Sports Representative</h3>
+                  <div class="timeline-company">
+                    <i class="fas fa-trophy" style="color: var(--accent-secondary);"></i>
+                    <span>Varsity Sports Council &bull; University Directorate</span>
+                  </div>
+                </div>
+                <span class="timeline-time" style="color: var(--accent-secondary); background: rgba(245, 158, 11, 0.1);"><i class="fas fa-calendar-alt"></i> 2023 &ndash; Present</span>
+              </div>
+              <p class="timeline-desc">
+                Leading the university varsity Judo team, designing high-intensity conditioning drills, mental composure sessions, and match strategy.
+              </p>
+              <div class="timeline-bullets">
+                <div class="timeline-bullet-item">
+                  <i class="fas fa-check" style="color: var(--accent-secondary);"></i>
+                  <span>Captained the university squad to overall Runner-Up trophy at the State Inter-Collegiate Martial Arts Games.</span>
+                </div>
+                <div class="timeline-bullet-item">
+                  <i class="fas fa-check" style="color: var(--accent-secondary);"></i>
+                  <span>Instilled strict discipline, conditioning regimen, and injury-prevention protocols for 25+ athletes.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         Projects Section
+         ========================================== -->
+    <section class="section" id="projects" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i class="fas fa-folder-open"></i>
+            <span>Featured Work</span>
+          </div>
+          <h2 class="section-title">Curated <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">
+            Real-world applications spanning Python backends, combat sports computer vision, algorithmic automation, and systems tooling.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="python-ai">Python & AI</button>
+          <button class="filter-btn" data-filter="web-backend">Web & Backend</button>
+          <button class="filter-btn" data-filter="sports-tech">Sports Tech</button>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: JudoFight AI -->
+          <div class="project-card" data-category="python-ai sports-tech">
+            <div class="project-thumbnail">
+              <div class="project-mockup-graphic">
+                <i class="fas fa-user-ninja" style="font-size: 4rem; color: #38bdf8; opacity: 0.85;"></i>
+              </div>
+              <span class="project-badge-tag">Computer Vision + Sports</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">DojoAI: Judo Throw Kinematics & Posture Analyzer</h3>
+              <p class="project-desc">
+                An intelligent Python computer vision application that processes video footage of Judo throws (Seoi-Nage, Uchi-Mata), calculating hip leverage angles, Kuzushi off-balancing timing, and stance stability scores using MediaPipe and OpenCV.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">OpenCV</span>
+                <span class="tech-pill">MediaPipe</span>
+                <span class="tech-pill">NumPy</span>
+                <span class="tech-pill">Streamlit</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <i class="fab fa-github"></i>
+                  <span>Source Code</span>
+                </a>
+                <a href="#projects" class="project-link-btn">
+                  <i class="fas fa-play"></i>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: AlgoTrade Sentinel -->
+          <div class="project-card" data-category="python-ai web-backend">
+            <div class="project-thumbnail">
+              <div class="project-mockup-graphic">
+                <i class="fas fa-chart-line" style="font-size: 4rem; color: #f59e0b; opacity: 0.85;"></i>
+              </div>
+              <span class="project-badge-tag">Automation & Finance</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">AlgoTrade Sentinel: High-Frequency Data Pipeline</h3>
+              <p class="project-desc">
+                An asynchronous Python engine for real-time market data ingestion and arbitrage pattern detection. Features automated price anomaly alerts via Telegram bots, historical backtesting, and persistent logging using SQLite.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">AsyncIO</span>
+                <span class="tech-pill">Pandas</span>
+                <span class="tech-pill">WebSockets</span>
+                <span class="tech-pill">FastAPI</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <i class="fab fa-github"></i>
+                  <span>Source Code</span>
+                </a>
+                <a href="#projects" class="project-link-btn">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>Docs & Specs</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: TatamiScore Tournament Manager -->
+          <div class="project-card" data-category="web-backend sports-tech">
+            <div class="project-thumbnail">
+              <div class="project-mockup-graphic">
+                <i class="fas fa-sitemap" style="font-size: 4rem; color: #818cf8; opacity: 0.85;"></i>
+              </div>
+              <span class="project-badge-tag">Full-Stack Sports App</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">TatamiScore: Tournament Bracket & Match Clock</h3>
+              <p class="project-desc">
+                A real-time combat sports tournament software built to manage repechage brackets, weight category seeds, Ippon/Waza-ari scoreboards, and penalty timers with live web displays for coaches and referees.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Python Flask</span>
+                <span class="tech-pill">JavaScript ES6</span>
+                <span class="tech-pill">SQLite</span>
+                <span class="tech-pill">Bootstrap</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <i class="fab fa-github"></i>
+                  <span>Source Code</span>
+                </a>
+                <a href="#projects" class="project-link-btn">
+                  <i class="fas fa-desktop"></i>
+                  <span>App Preview</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: PyGuard Vulnerability Scanner -->
+          <div class="project-card" data-category="python-ai web-backend">
+            <div class="project-thumbnail">
+              <div class="project-mockup-graphic">
+                <i class="fas fa-shield-virus" style="font-size: 4rem; color: #ef4444; opacity: 0.85;"></i>
+              </div>
+              <span class="project-badge-tag">Security & CLI</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">PyGuard: Automated Network & Dependency Scanner</h3>
+              <p class="project-desc">
+                Multi-threaded Python command-line utility for scanning target subnets, auditing outdated SSL certificates, and detecting common CVE vulnerability signatures in Python project manifests.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Sockets</span>
+                <span class="tech-pill">Threading</span>
+                <span class="tech-pill">Rich CLI</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <i class="fab fa-github"></i>
+                  <span>Source Code</span>
+                </a>
+                <a href="#projects" class="project-link-btn">
+                  <i class="fas fa-terminal"></i>
+                  <span>Terminal Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: CampusPulse Academic Hub -->
+          <div class="project-card" data-category="web-backend">
+            <div class="project-thumbnail">
+              <div class="project-mockup-graphic">
+                <i class="fas fa-graduation-cap" style="font-size: 4rem; color: #10b981; opacity: 0.85;"></i>
+              </div>
+              <span class="project-badge-tag">Academic Portal</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">CampusPulse: Resource Indexing & Attendance Hub</h3>
+              <p class="project-desc">
+                Full-stack web application designed for engineering students to organize subject lecture notes, calculate target attendance cut-offs, and collaborate on lab assignments with encrypted user accounts.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Python FastAPI</span>
+                <span class="tech-pill">JWT Auth</span>
+                <span class="tech-pill">SQLAlchemy</span>
+                <span class="tech-pill">HTML5/CSS3</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <i class="fab fa-github"></i>
+                  <span>Source Code</span>
+                </a>
+                <a href="#projects" class="project-link-btn">
+                  <i class="fas fa-globe"></i>
+                  <span>Live App</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: QuickScrape Resume & Job Parser -->
+          <div class="project-card" data-category="python-ai">
+            <div class="project-thumbnail">
+              <div class="project-mockup-graphic">
+                <i class="fas fa-file-invoice" style="font-size: 4rem; color: #a855f7; opacity: 0.85;"></i>
+              </div>
+              <span class="project-badge-tag">Data Extraction</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">QuickScrape: NLP Skill Matcher & Job Aggregator</h3>
+              <p class="project-desc">
+                Automated career scraper that crawls tech portals for Python & Data roles, extracts skill requirements using regular expressions and Spacy NLP, and scores resume compatibility automatically.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">BeautifulSoup</span>
+                <span class="tech-pill">Regex</span>
+                <span class="tech-pill">Pandas</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <i class="fab fa-github"></i>
+                  <span>Source Code</span>
+                </a>
+                <a href="#projects" class="project-link-btn">
+                  <i class="fas fa-play"></i>
+                  <span>Run Script</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         Hackathons & Competitions Section
+         ========================================== -->
+    <section class="section" id="hackathons">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge sports-badge">
+            <i class="fas fa-fire"></i>
+            <span>Battles of Intellect & Stamina</span>
+          </div>
+          <h2 class="section-title">Hackathons & <span class="gold-text">Competitions</span></h2>
+          <p class="section-subtitle">
+            Sprint coding against the clock and testing tactical execution against top peer talent.
+          </p>
+        </div>
+
+        <div class="hackathons-grid">
+          
+          <!-- Hackathon 1 -->
+          <div class="hackathon-card">
+            <div>
+              <div class="hackathon-badge"><i class="fas fa-crown"></i> Finalist</div>
+              <div class="hackathon-icon"><i class="fas fa-lightbulb"></i></div>
+              <h3 class="hackathon-title">Smart India Hackathon (SIH)</h3>
+              <div class="hackathon-org">Ministry of Education &bull; AI Track</div>
+              <p class="hackathon-desc">
+                Competed in the nationwide 36-hour non-stop problem-solving hackathon. Developed an automated document verification and anomaly detection backend in Python.
+              </p>
+            </div>
+            <div class="hackathon-highlight">
+              <strong>Key Contribution:</strong> Built the core OCR data parsing pipeline and REST endpoints within 18 hours.
+            </div>
+          </div>
+
+          <!-- Hackathon 2 -->
+          <div class="hackathon-card">
+            <div>
+              <div class="hackathon-badge"><i class="fas fa-medal"></i> 1st Runner Up</div>
+              <div class="hackathon-icon"><i class="fas fa-bolt"></i></div>
+              <h3 class="hackathon-title">CodePulse 24-Hour National Hack</h3>
+              <div class="hackathon-org">Tech Council India &bull; Smart Cities</div>
+              <p class="hackathon-desc">
+                Devised a real-time emergency routing dispatch system that dynamically recalculates vehicle priority lanes using graph algorithms and Python.
+              </p>
+            </div>
+            <div class="hackathon-highlight">
+              <strong>Outcome:</strong> Awarded 2nd Prize out of 85+ university engineering teams across the country.
+            </div>
+          </div>
+
+          <!-- Hackathon 3 -->
+          <div class="hackathon-card">
+            <div>
+              <div class="hackathon-badge"><i class="fas fa-code"></i> Top 5</div>
+              <div class="hackathon-icon"><i class="fas fa-laptop-code"></i></div>
+              <h3 class="hackathon-title">Hack-CSE Inter-Collegiate Sprint</h3>
+              <div class="hackathon-org">Department of Computer Science</div>
+              <p class="hackathon-desc">
+                Led a team of four to construct an automated exam proctoring monitor utilizing webcam facial orientation tracking and Python OpenCV.
+              </p>
+            </div>
+            <div class="hackathon-highlight">
+              <strong>Leadership:</strong> Acted as Team Captain, handling architecture, task delegation, and final demo pitch.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         Achievements & Honors Section
+         ========================================== -->
+    <section class="section" id="achievements" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i class="fas fa-award"></i>
+            <span>Proud Milestones</span>
+          </div>
+          <h2 class="section-title">Honors & <span class="gradient-text">Achievements</span></h2>
+          <p class="section-subtitle">
+            Recognition earned across academic programming challenges and competitive martial arts tournaments.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          
+          <!-- Column 1: Sports & Judo Honors -->
+          <div>
+            <h3 class="achievement-column-title">
+              <i class="fas fa-trophy" style="color: var(--accent-secondary);"></i>
+              <span>Judo & Sports Honors</span>
+            </h3>
+
+            <div class="achievement-cards-list">
+              
+              <div class="achievement-card">
+                <div class="achievement-icon-box gold-medal">
+                  <i class="fas fa-medal"></i>
+                </div>
+                <div class="achievement-info">
+                  <h4>Gold Medal &ndash; State Senior Judo Championship</h4>
+                  <p>Clinched 1st place in the Men's -73kg category with three consecutive Ippon victories in knockout rounds.</p>
+                  <div class="achievement-date">State Judo Association</div>
+                </div>
+              </div>
+
+              <div class="achievement-card">
+                <div class="achievement-icon-box gold-medal">
+                  <i class="fas fa-award"></i>
+                </div>
+                <div class="achievement-info">
+                  <h4>All-India Inter-University Nationals Qualifier</h4>
+                  <p>Selected to represent university contingent at the prestigious All India Inter-University Games.</p>
+                  <div class="achievement-date">Association of Indian Universities (AIU)</div>
+                </div>
+              </div>
+
+              <div class="achievement-card">
+                <div class="achievement-icon-box gold-medal">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="achievement-info">
+                  <h4>Athlete of the Year &bull; Martial Arts</h4>
+                  <p>Conferred the Annual Sports Excellence Honor for consistent tournament victories and squad leadership.</p>
+                  <div class="achievement-date">Varsity Annual Sports Gala</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Column 2: Tech & Academic Honors -->
+          <div>
+            <h3 class="achievement-column-title">
+              <i class="fas fa-graduation-cap" style="color: var(--accent-primary);"></i>
+              <span>Tech & Academic Honors</span>
+            </h3>
+
+            <div class="achievement-cards-list">
+              
+              <div class="achievement-card">
+                <div class="achievement-icon-box">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="achievement-info">
+                  <h4>500+ LeetCode DSA Solutions in Python</h4>
+                  <p>Top 15% contest rating globally, demonstrating consistent mastery over dynamic programming, trees, and graphs.</p>
+                  <div class="achievement-date">LeetCode Profile Verified</div>
+                </div>
+              </div>
+
+              <div class="achievement-card">
+                <div class="achievement-icon-box">
+                  <i class="fas fa-certificate"></i>
+                </div>
+                <div class="achievement-info">
+                  <h4>Python (Gold Badge) & SQL Advanced</h4>
+                  <p>Achieved 5-Star Gold badges in Python proficiency and advanced SQL problem solving on HackerRank.</p>
+                  <div class="achievement-date">HackerRank Certified</div>
+                </div>
+              </div>
+
+              <div class="achievement-card">
+                <div class="achievement-icon-box">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="achievement-info">
+                  <h4>Dean’s Academic Commendation List</h4>
+                  <p>Maintained high CGPA across core CSE semesters including Operating Systems, DBMS, and Algorithm Design.</p>
+                  <div class="achievement-date">University Faculty of Engineering</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         Contact Section
+         ========================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i class="fas fa-envelope-open-text"></i>
+            <span>Get In Touch</span>
+          </div>
+          <h2 class="section-title">Let’s Connect & <span class="gradient-text">Collaborate</span></h2>
+          <p class="section-subtitle">
+            Whether you want to discuss a Python engineering opportunity, hackathon team-up, or talk martial arts tactics &mdash; my inbox is always open.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Column -->
+          <div class="contact-info-panel">
+            <p class="contact-lead">
+              I am actively seeking software engineering internships, Python developer roles, and open-source collaborations. Let’s build something impactful together!
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-card">
+                <div class="contact-icon-box">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <div class="contact-label">Email Address</div>
+                  <a href="mailto:aryan.tech.judo@gmail.com" class="contact-val">aryan.tech.judo@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <div class="contact-icon-box">
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <div class="contact-label">LinkedIn Profile</div>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-val">linkedin.com/in/aryan-cse-judo</a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <div class="contact-icon-box">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div>
+                  <div class="contact-label">GitHub Repositories</div>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-val">github.com/aryan-dev-judo</a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <div class="contact-icon-box">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <div class="contact-label">Current Location</div>
+                  <div class="contact-val">India &bull; Open to Remote & Relocation</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-card">
+            <form id="contact-form">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="name">Your Name *</label>
+                  <input type="text" id="name" class="form-control" placeholder="e.g. John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email *</label>
+                  <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" class="form-control" placeholder="Job Opportunity / Project Collaboration / Judo" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message *</label>
+                <textarea id="message" class="form-control" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fas fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       Footer
+       ========================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-copy">
+        &copy; 2026 <strong>Aryan</strong>. Built with precision in HTML, CSS & JavaScript. All rights reserved.
+      </div>
+      <a href="#hero" class="footer-back-to-top" id="footer-scroll-top">
+        <span>Back to Top</span>
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Floating Scroll To Top Button -->
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll to top" title="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast-notice"></div>
+
+  <!-- JavaScript Script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
